@@ -1273,11 +1273,10 @@ body {
   }
 
   .intro__gallery-item {
-    width: 100px;
-    height: 80px;
+  display: none;
   }
   .intro__imgs {
-    width: 800px;
+  display: none;
   }
 }
 /*  */
