@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Segoe UI", sans-serif;
   height: 100%;
+  overflow-x: hidden;
   /* max-width: 1200px; */
 }
 
@@ -98,6 +99,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .landing__title {
     font-size: 1.8rem;
   }
@@ -179,6 +183,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .services__item {
     flex-direction: column;
     text-align: center;
@@ -192,6 +199,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
   .services__title {
     font-size: 1.8rem;
   }
@@ -309,6 +319,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .who__cards {
     flex-direction: column;
     align-items: center;
@@ -324,6 +337,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
   .who__card {
     padding: 1.5rem;
   }
@@ -531,6 +547,10 @@ body {
 }
 
 @media (max-width: 450px) {
+
+    body{
+        overflow-x: hidden;
+    }
   .market {
     padding: 20px;
   }
@@ -695,6 +715,9 @@ body {
   margin-left: 75px;
 }
 @media (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
   .accelerator__title {
     font-size: 1.5rem;
   }
@@ -866,6 +889,9 @@ body {
 }
 
 @media (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
   .program__title {
     font-size: 1.5rem;
   }
@@ -977,6 +1003,9 @@ body {
 }
 
 @media (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
   .investor__title {
     font-size: 1.5rem;
   }
@@ -1013,7 +1042,7 @@ body {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  overflow-x: hidden;
   flex: 1;
   max-width: 300px;
   text-align: center;
@@ -1085,6 +1114,9 @@ body {
 }
 
 @media (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
   .pricing__cards {
     flex-direction: column;
     align-items: center;
@@ -1190,8 +1222,10 @@ body {
   margin-top: 40px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .intro__content {
     flex-direction: column;
     align-items: center;
@@ -1466,6 +1500,9 @@ body {
   }
   
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .hero__title {
     font-size: 24px;
   }
@@ -1702,6 +1739,9 @@ body {
     color: white;
   }
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
   .contact__wrapper,
   .footer__content {
     flex-direction: column;
